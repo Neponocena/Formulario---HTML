@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="Logo Habitação.png" alt="Logo Habitação" class="logo">
+<form>
+
+  <h1>Questionário de Interesse Habitacional</h1>
+
+  <fieldset>
+    <legend>Dados do Morador</legend>
+
+    <div class="campo">
+      <label for="nome">Nome Completo</label>
+      <input type="text" id="nome">
+    </div>
+
+    <div class="campo">
+      <label for="endereco">Endereço</label>
+      <input type="text" id="endereco">
+    </div>
+
+    <div class="campo">
+      <label for="cidade">Cidade</label>
+      <input type="text" id="cidade">
+    </div>
+
+    <div class="campo">
+      <label for="tempo_moradia">Tempo de moradia no local (anos)</label>
+      <input type="number" id="tempo_moradia">
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Informações do Imóvel</legend>
+
+    <div class="campo">
+      <label>Imóvel Próprio?</label>
+
+      <div class="opcao">
+        <input type="radio" name="imovel_proprio" id="imovel_sim">
+        <label for="imovel_sim">Sim</label>
+      </div>
+
+      <div class="opcao">
+        <input type="radio" name="imovel_proprio" id="imovel_nao">
+        <label for="imovel_nao">Não</label>
+      </div>
+    </div>
+
+    <div class="campo">
+      <label>Uso do Imóvel</label>
+
+      <div class="opcao">
+        <input type="radio" name="uso_imovel" id="uso_residencial">
+        <label for="uso_residencial">Residencial</label>
+      </div>
+
+      <div class="opcao">
+        <input type="radio" name="uso_imovel" id="uso_comercial">
+        <label for="uso_comercial">Comercial</label>
+      </div>
+
+      <div class="opcao">
+        <input type="radio" name="uso_imovel" id="uso_servicos">
+        <label for="uso_servicos">Serviços</label>
+      </div>
+
+      <div class="opcao">
+        <input type="radio" name="uso_imovel" id="uso_religioso">
+        <label for="uso_religioso">Religioso</label>
+      </div>
+
+      <div class="opcao">
+        <input type="radio" name="uso_imovel" id="uso_misto">
+        <label for="uso_misto">Misto</label>
+      </div>
+    </div>
+
+    <div class="campo">
+      <label>Possui outro imóvel com registro em cartório?</label>
+
+      <div class="opcao">
+        <input type="radio" name="outro_imovel" id="outro_sim">
+        <label for="outro_sim">Sim</label>
+      </div>
+
+      <div class="opcao">
+        <input type="radio" name="outro_imovel" id="outro_nao">
+        <label for="outro_nao">Não</label>
+      </div>
+    </div>
+
+    <div class="campo">
+      <label for="quantidade">Qual quantidade de habitantes no imóvel, incluindo você?</label>
+      <input type="number" id="quantidade">
+    </div>
+
+    <div class="campo">
+      <label>Áreas presentes na moradia:</label>
+
+      <div class="opcao">
+        <input type="checkbox" id="dormitorios">
+        <label for="dormitorios">Dormitórios</label>
+      </div>
+
+      <div class="opcao">
+        <input type="checkbox" id="cozinha">
+        <label for="cozinha">Cozinha</label>
+      </div>
+
+      <div class="opcao">
+        <input type="checkbox" id="sala">
+        <label for="sala">Sala</label>
+      </div>
+
+      <div class="opcao">
+        <input type="checkbox" id="banheiros">
+        <label for="banheiros">Banheiros</label>
+      </div>
+
+      <div class="opcao">
+        <input type="checkbox" id="area_servico">
+        <label for="area_servico">Área de Serviço</label>
+      </div>
+
+      <div class="opcao">
+        <input type="checkbox" id="garagem">
+        <label for="garagem">Garagem</label>
+      </div>
+
+      <div class="opcao">
+        <input type="checkbox" id="area_complementar">
+        <label for="area_complementar">Área Complementar</label>
+      </div>
+    </div>
+  </fieldset>
+
+</form>
+</body>
+</html>

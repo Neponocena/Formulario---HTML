@@ -1,0 +1,21 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.opcao {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px auto;
+}
