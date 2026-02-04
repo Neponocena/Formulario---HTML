@@ -1,8 +1,9 @@
 body
 {
-    background-color: rgb(255, 255, 255);
+    background-color: #f2f4f7;
     color: rgb(0, 0, 0);
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .campo {
   display: flex;
@@ -11,9 +12,11 @@ body
 }
 
 .opcao {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b3b3b3;
+  font-size: 14px;
+  
 }
 
 .logo {
@@ -25,14 +28,18 @@ h1
 {
   text-align: center;
   color: rgb(61, 63, 63);
+  margin: 25px 0 ;
 }
 
 header
 {
-  background-color: rgb(73, 121, 160);
-  background: linear-gradient(to right, #2e3236, #00aaff);
+  background: linear-gradient(to right, #2d3d4d, #00aaff);
   padding: 20px;
   display: flex;
+  border-radius: 8px 8px ;
+  justify-content: center;
+  max-width: 800px;
+  margin: 30px;
   
 }
 
@@ -40,15 +47,29 @@ form
 {
   max-width: 800px;
   margin: 0 auto;
-  padding: 30;
-  border: 1px solid;
-  border-radius: 5px;
+  padding: 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  text-align: justify;
 }
 
-.botao
-{
-  text-align: center;
-  color: #0f0e0e;
+.conteudobotao {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.botao_enviar {
+    background: linear-gradient(to right, #0059ff, #00aaff); 
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 
