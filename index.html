@@ -7,21 +7,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="Logo Habitação.png" alt="Logo Habitação" class="logo">
+  
 <form>
-
+  <header>
+    <img src="Logo Habitação.png" alt="Logo Habitação" class="logo">
+    </header>
+    
   <h1>Questionário de Interesse Habitacional</h1>
 
   <fieldset>
-    <legend>Dados do Morador</legend>
+    <legend><h3>Dados do Morador</h3></legend>
 
     <div class="campo">
-      <label for="nome">Nome Completo</label>
+      <label for="nome">Nome Completo:</label>
       <input type="text" id="nome">
     </div>
 
     <div class="campo">
-      <label for="endereco">Endereço</label>
+      <label for="endereco">Endereço:</label>
       <input type="text" id="endereco">
     </div>
 
@@ -34,10 +37,51 @@
       <label for="tempo_moradia">Tempo de moradia no local (anos)</label>
       <input type="number" id="tempo_moradia">
     </div>
+
+    <div class = "campo">
+      <label>Situação de Empregabilidade:</label>
+
+    <div class = "opcao">
+      <input type="radio" name="situacao" id="ativo">
+      <label for="ativo">Ativo</label>
+    </div>
+
+    <div class = "opcao">
+      <input type="radio" name="situacao" id="inativo">
+      <label for="inativo">Inativo</label>
+    </div>
+    </div>
+
+    <div class = "campo">
+      <label>Estado civil</label>
+
+      <div class = "opcao">
+        <input type="radio" name="estado" id="casado">
+        <label for="casado">Casado</label>
+      </div>
+
+      <div class = "opcao">
+        <input type="radio" name="estado" id="uniao_estavel">
+        <label for="uniao_estavel">União estável ou convivência marital</label>
+      </div>
+      
+      <div class = "opcao">
+        <input type="radio" name="estado" id="divorciado">
+        <label for="divorciado">Divorciado (a)</label>
+      </div>
+      <div class = "opcao">
+        <input type="radio" name="estado" id="viuvo">
+        <label for="viuvo">Viúvo (a)</label>
+      </div>
+      <div class = "opcao">
+        <input type="radio" name="estado" id="divorciado_de_fato">
+        <label for="divorciado_de_fato">Divorcido (a) de fato</label>
+      </div>
+    </div>
   </fieldset>
 
   <fieldset>
-    <legend>Informações do Imóvel</legend>
+    <legend><h3>Informações do Imóvel</h3></legend>
 
     <div class="campo">
       <label>Imóvel Próprio?</label>
@@ -142,5 +186,8 @@
   </fieldset>
 
 </form>
+      <div class="botao">
+        <input type="button" value="Enviar">
+      </div>
 </body>
 </html>

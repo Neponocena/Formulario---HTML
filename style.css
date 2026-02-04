@@ -2,6 +2,7 @@ body
 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    margin: 0;
 }
 .campo {
   display: flex;
@@ -19,3 +20,35 @@ body
   display: block;
   margin: 0 auto 20px auto;
 }
+
+h1
+{
+  text-align: center;
+  color: rgb(61, 63, 63);
+}
+
+header
+{
+  background-color: rgb(73, 121, 160);
+  background: linear-gradient(to right, #2e3236, #00aaff);
+  padding: 20px;
+  display: flex;
+  
+}
+
+form
+{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.botao
+{
+  text-align: center;
+  color: #0f0e0e;
+}
+
+
